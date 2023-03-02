@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <header >
+        <div class="logo">
+            <h1><img src="/logo.jpg" alt="logo Encriptador"></h1>
+            <h2 class="titulo">ENCRIPTADOR DE TEXTO</h2>
+        </div>
+    </header>
+    
+    <main>
+        <label class="titulo-a-en" for="Texto">Texto a Encriptar</label>
+        <textarea class="texto-encry" rows="30" cols="50" required     placeholder="Ingrece el texto aqui"></textarea>
+        <textarea class="resultado" rows="30" cols="50"></textarea>
+        <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+        <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+        <button class="copiar" onclick="copiarTexto()">Copiar</button>
+    </main>
+
+    <footer>
+        <img class="logo-marca" src="/logoDeMarca.jpg" alt="logo de marca">
+        <p class="by">By Carlos Daniel Echeverri Ramírez</p>
+    </footer>
+
+    <script src="/script.js"></script>
+
+</body>
+</html>
